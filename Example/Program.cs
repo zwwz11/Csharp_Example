@@ -12,10 +12,10 @@ namespace Example
     {
         static void Main(string[] args)
         {
-            AsynchronousExample example = new AsynchronousExample();
-            //example.RunWait();
-            Console.WriteLine();
-            example.RunAsync();
+            AsynchronousExample asynchronousExample = new AsynchronousExample();
+            ExceptionFilterExample exceptionFilterExample = new ExceptionFilterExample();
+            exceptionFilterExample.Run();
+
         }
     }
 }
