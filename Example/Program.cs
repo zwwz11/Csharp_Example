@@ -14,8 +14,11 @@ namespace Example
         {
             AsynchronousExample asynchronousExample = new AsynchronousExample();
             ExceptionFilterExample exceptionFilterExample = new ExceptionFilterExample();
-            exceptionFilterExample.Run();
+            OutParameterExample outParameterExample = new OutParameterExample();
+            TupleExample tupleExample = new TupleExample();
+            LocalMethod localMethod = new LocalMethod();
 
+            localMethod.Run();
         }
     }
 }
